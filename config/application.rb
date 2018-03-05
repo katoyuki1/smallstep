@@ -6,7 +6,7 @@ Bundler.require(*Rails.groups)
 
 module Smallstep
   class Application < Rails::Application
-    config.geneators do |g|
+    config.generators do |g|
       g.assets false
       g.helper false
     end
