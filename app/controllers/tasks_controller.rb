@@ -7,5 +7,6 @@ class TasksController < ApplicationController
   end
 
   def create
+    Task.create(params[:task])
   end
 end
